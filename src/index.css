@@ -1,13 +1,52 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #FAFAFA;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Override Ant Design styles */
+
+/* Title bar */
+.row-title-bar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
+
+/* For the table */
+.ant-table {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.ant-table-thead > tr > th {
+    background-color: #f5f5f5;
+}
+
+/* For buttons */
+.ant-btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    color: #ffffff;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    background-color: #45a047;
+    border-color: #45a047;
+}
+
+/* For input and textareas */
+.ant-input {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+}
+
+.ant-input:hover,
+.ant-input:focus {
+    border-color: #4CAF50;
+}
+
+/* Additional styles for more components can be added as needed */
